@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrophyManager", "TrophyManager.csproj", "{8EAC0172-339A-48A6-9A64-58B8CA24A62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTrophyManager", "..\TestTrophyManager\TestTrophyManager.csproj", "{1B502C94-3B52-488B-B097-196D60F6A0E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{8EAC0172-339A-48A6-9A64-58B8CA24A62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EAC0172-339A-48A6-9A64-58B8CA24A62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EAC0172-339A-48A6-9A64-58B8CA24A62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B502C94-3B52-488B-B097-196D60F6A0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B502C94-3B52-488B-B097-196D60F6A0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B502C94-3B52-488B-B097-196D60F6A0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B502C94-3B52-488B-B097-196D60F6A0E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A87919-3D8E-417F-9828-BD391D7D5974}
 	EndGlobalSection
 EndGlobal
