@@ -13,7 +13,7 @@ namespace TrophyManager
         /// <summary>
         /// Thiese are the instance fields.
         /// </summary>
-        private List<Trophy> _trophies => new List<Trophy>
+        private List<Trophy> _trophies = new List<Trophy>
         {
             new Trophy(1, "Champions League", 2020),
             new Trophy(2, "Premier League", 2019),
@@ -37,7 +37,7 @@ namespace TrophyManager
         /// </summary>
         /// /// <param name="year"></param>
         /// <returns> _trophies filtered by year </returns>
-        public List<Trophy> GetFiltYear(int year)
+        public List<Trophy> GetFilteredByYear(int year)
         {
             return _trophies.Where(t => t.Year == year).ToList();
         }
