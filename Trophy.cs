@@ -17,15 +17,16 @@
             get { return _competition; }
             set
             {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("Competition name cannot be null or empty.");
+                }
+              
                 if (value.Length < 3)
                 {
                     throw new ArgumentException("Competition name must be at least 3 characters long.");
                 }
 
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw new ArgumentException("Competition name cannot be null or empty.");
-                }
                 _competition = value;
             }
         }
